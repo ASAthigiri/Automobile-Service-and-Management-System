@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+img{
+  :center;
+}
+body{
+background: rgb(246,255,240);
+background: linear-gradient(90deg, rgba(246,255,240,1) 25%, rgba(220,243,255,1) 42%, rgba(249,238,255,1) 71%, rgba(255,255,255,1) 100%);
+  background-size:400% 400%;
+  animation:gradient 15s ease infinite;
+  height:100vh;
+
+}
+
+@keyframes gradient{
+
+  0%{
+    background-position: 0% 50%;
+      }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+.row2{
+  backdrop-filter: blur(5px);
+   backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.50);
+  font-family: 'Rampart One', cursive;
+}
+.lead{
+  font-family: 'Tilt Neon', cursive;
+}
+  
+    .book-mechanic {
+      display: inline-block;
+      background-color: ;
+      color: blue ;
+      padding: 4px 5px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+     
+    }
+    
+    .book-mechanic:hover {
+      background-color:#34afdf;
+      color: #FFFFFF;
+    }
+
+
+::selection{
+  color:#c1c4ff;
+  background-color: green;
+}
+.color1{
+  background-color:none;
+}
+div.color1:hover {
+      background: linear-gradient(90deg, rgba(220,214,198,1) 0%, rgba(203,202,200,1) 81%, rgba(252,248,248,1) 100%);
+        color: black;
+        font-style: italic;
+}
+.hr{
+  padding-left: 15%;
+}
+.nav-link:hover
+{
+  background-color: #c1c4ff ;
+  color: green;
+  border-radius: 10px; 
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+:root {
+  --animate-duration: 1800ms;
+  --animate-delay: 1s;
+
+}
+.hes{
+  color: darkred;
+}
